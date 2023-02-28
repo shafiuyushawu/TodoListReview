@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10e6eafe5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="bundle7b4c1bf7333dfd6f7650.js"></script></head>
+
+<body>
+    <section class="todo__section">
+        <div class="todo__div">
+            <div class="todo__title">
+                <p class="">Today's To Do</p>
+                <i class="fa-solid fa-arrows-rotate icon" id="refresh"></i>
+            </div>
+            <form id="todoForm">
+                <div class="form__group">
+                    <input id="todoDescription" type="text" placeholder="Add to your list...">
+                    <button class="submitBtn" type="submit">
+                        <i class="fa-solid fa-arrow-right-to-bracket" id="addButton"></i>
+                    </button>
+                </div>
+            </form>
+            <div id="todoList" class="">
+            </div>
+        </div>
+        <button type="button" id="clearCompleted" class="clear__completed">Clear all completed</button>
+    </section>
+
+    <script type="module" src="./index.js"></script>
+</body>
